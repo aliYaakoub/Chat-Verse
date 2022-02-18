@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "chat-app-22",
-    "slug": "chat-app-22",
+    "name": "Chat Verse",
+    "slug": "chat-verse",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/chat-verse.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/front.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,13 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.powerBain.chatVerse"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/chat-verse.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.powerBain.chatVerse",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
